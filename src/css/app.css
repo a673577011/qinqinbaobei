@@ -1,0 +1,27 @@
+.center{height:auto;padding-bottom:40px;}
+.appbox{height:729px;background:url(../img/mdbg.png) no-repeat;}
+.appbox .appcon{width:1015px;height:674px;margin:0 auto;padding:55px 0 0 65px;}
+.appbox .app{width:287px;height:596px;background:url(img/phonesm.png) no-repeat;float:left;}
+.appbox .erweima{float:left;margin-left:100px;}
+.appbox .erweima h3{font-size:55px;color:#fff;line-height:55px;}
+.appbox .erweima .zhenerweima{margin-left:160px;margin-top:70px;width:178px;}
+.appbox .erweima .zhenerweima p{text-align:center;font-size:19px;color:#fff;line-height:59px;}
+.appbox .erweima .gundong img{margin-left:53px;margin-bottom:43px;}
+.appbox .gundong .yitiaoline{width:74px;height:8px;background:#2997b7;}
+.appbox .gundong li h2{font-size:18px;line-height:34px;margin-top:20px;}
+.appbox .gundong li{float:left;text-align:center;margin-right:18px;color:#108db1;}
+.appbox .gundong p{line-height:22px;}
+.appbox .gundong .nizuitebie{margin-right:8px;}
+.appbox .gundong a:hover{color:#fff}
+.appbox .gundong a:hover .yitiaoline{background:#fff;}
+.chengnuo{width:1080px;height:302px;margin:0 auto;}
+.chengnuo ul{margin-top:80px;}
+.chengnuo ul li{float:left;width:33%;text-align:center;}
+.chengnuo p{font-size:24px;line-height:126px}
+.kuangkuang{width:1078px;height:138px;border:1px solid #e5e5e5;margin:0 auto;background:url(img/promissm.png) no-repeat center center}
+
+
+
+
+
+
