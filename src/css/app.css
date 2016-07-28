@@ -1,7 +1,13 @@
 .center{height:auto;padding-bottom:40px;}
 .appbox{height:729px;background:url(../img/mdbg.png) no-repeat;}
 .appbox .appcon{width:1015px;height:674px;margin:0 auto;padding:55px 0 0 65px;}
-.appbox .app{width:287px;height:596px;background:url(img/phonesm.png) no-repeat;float:left;}
+.appbox .app{width:287px;height:596px;background:url(img/phonesm.png) no-repeat;float:left;position:relative;}
+.app .look{width:237px;height:422px;background:#fff;position:absolute;top:83px;left:27px;overflow:hidden;}
+.look ul{width:2130px;height:422px;position:absolute;left:0;}
+.look  li{float:left;}
+.look img{border:0;}
+
+
 .appbox .erweima{float:left;margin-left:100px;}
 .appbox .erweima h3{font-size:55px;color:#fff;line-height:55px;}
 .appbox .erweima .zhenerweima{margin-left:160px;margin-top:70px;width:178px;}

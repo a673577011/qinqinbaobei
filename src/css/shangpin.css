@@ -1,23 +1,42 @@
 .center{height:2818px;background:#f0fbfd;margin-bottom:30px;padding-top:16px;}
-.daohang{width:998px;height:201px;border:1px solid #eaf9fc;background:#fff;margin:0 auto;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.daohang{width:998px;height:201px;border:1px solid #eaf9fc;background:#fff;margin:0 auto;line-height:30px;}
+.daohang .shangceng{height:142px;border-bottom:1px dashed #dbdbdb;margin:0 20px;}
+.daohang dt{float:left;font-weight:600;}
+.daohang a{color:#000;margin-right:17px;}
+.daohang .quanbu{text-decoration:underline;color:#14b3c9;}
+.daohang dd{width:870px;height:60px;}
+.daohang .diyigedl{border-bottom:1px dashed #dbdbdb;padding-bottom:10px;}
+.xiaceng a{width:70px;height:28px;border:1px solid #ddd;text-align:center;float:left;margin-left:-1px;margin-right:0;position:relative;z-index:1;}
+.xiaceng{margin-top:15px;margin-left:12px;}
+.xiaceng a:hover{border:1px solid #73dff4;z-index:5;}
+.xiaceng a:hover span{color:#73dff4}
+.xiaceng .zhixianshi{width:108px;height:28px;margin-left:10px;}
+.xiaceng .tiaozhuan,.xiangxi .tiaozhuan{float:right;width:340px;height:30px;}
+.tiaozhuan a,.xiangxi .tiaozhuan a{width:28px;height:28px;margin-right:2px;float:left}
+.tiaozhuan .page-start,.tiaozhuan .page-last{border:1px solid #969696;}
+.tiaozhuan .page-start{margin-right:5px;}
+.tiaozhuan .page-last{margin-left:5px;}
+.tiaozhuan span{float:left;padding-right:12px;}
+.daohang a:hover{color:#73dff4}
+.xiangxi{width:998px;height:2580px;border:1px solid #eaf9fc;margin:0 auto;background:#fff;margin-top:15px;padding-top:18px;}
+.xiangxi .shangpin{width:225px;height:285px;border:1px solid #f5f5f5;float:left;margin-left:18px;}
+.xiangxi ul{height:305px;}
+.xiangxi .zhaopian{height:225px;background:url(img/146907761499210_225x225.jpg) no-repeat;}
+.xiangxi .zhaopian img{display:none;}
+.xiangxi .shangpin p{line-height:26px;overflow:hidden;height:30px;}
+.xiangxi .jiage{padding-left:7px;}
+.xiangxi .jiage b,.xiangxi .jiage span{color:#fd5908;line-height:28px;}
+.xiangxi li:hover{height:300px;border:2px solid #f49454;margin-left:17px;margin-right:-1px;margin-top:-1px;}
+.xiangxi li:hover p{height:45px;}
+.xiangxi li:hover img{display:block;}
+.xiangxi .tiaozhuan{text-align:center;line-height:30px;}
+.xiangxi .tiaozhuan a{color:#777777;border:1px solid #ddd;}
+.xiangxi .tiaozhuan .page-start,.xiangxi .tiaozhuan .page-last{border:1px solid #969696;}
+.xiangxi .tiaozhuan .page-start{margin-right:5px;}
+.xiangxi .tiaozhuan .page-last{margin-left:5px;}
+.xiangxi .tiaozhuan span{float:left;padding-right:12px;}
+.xiangxi .tiaozhuan a:hover{color:#73dff4}
+.xiangxi .tiaozhuan a:hover{border:1px solid #73dff4;}
 
 
 

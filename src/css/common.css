@@ -42,7 +42,9 @@ body{color:#666;font-size:12px}
 .dibu .weibo{width:110px;float:left;text-align:center;margin-left:41px;}
 .dibubm{height:166px;width:1080px;margin:0 auto;text-align:center;}
 .dibubm .btm a{padding:0 20px;color:#555;line-height:28px;}
-.dibubm .youqinglianjie{height:25px;width:580px;}
+.dibubm .youqinglianjie{height:25px;width:580px;padding-left:260px;}
+.youqinglianjie span{float:left;}
+
 .dibubm .msg{color:#888;line-height:14px;}
 .dibubm .tel{height:44px;line-height:44px;color:#333;width:450px;margin:0 auto;position:relative;}
 .dibubm .tel b{position: absolute;top:16px;left:0;background:url(img/guhua.jpg);width:21px;height:14px;}
@@ -50,9 +52,13 @@ body{color:#666;font-size:12px}
 .dibubm .jingcha li{float:left;margin:10px;}
 
 
+.zhuijia{width:100px;height:360px;position:fixed;bottom:270px;right:10px;display:none;z-index:9999}
+.zhuijia img{border:0;}
 
 
-
+.youqinglianjie .kdjdyqlj{float:left;width:500px;height:25px;overflow:hidden;}
+.kdjdyqlj ul{float:left;width:3441px;height:25px;position:relative;}
+.kdjdyqlj ul li{float:left;margin-right:7px;}
 
 
 

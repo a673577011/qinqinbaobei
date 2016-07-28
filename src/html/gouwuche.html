@@ -3,55 +3,188 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
+<script src="../js/jquery-1.12.0.js"></script>
+<script src="../js/gouwuche.js"></script>
+<script src="../js/common.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+<link rel="stylesheet" type="text/css" href="../css/gouwuche.css"/>
 <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
 </head>
 <body>
-<!--***************head*******************-->
-<div class="headbox">
-	<div class="head">
-		<div class="headleft">
-			<img src="../css/img/qinqinlogo.png"/>
+<div class="chaojidiv">
+<!--***************xiaohead*******************-->
+<div class="xiaohead">
+	<div class="xiaoheadbox">
+		<div class="xiaoleft">您好,<a href="#" class="yhm">baby578f049720f11</a>！<a href="#" class="tuichu">[退出]</a></div>
+		<div class="xiaoright">
 			<ul>
-				<li><a href="#">首页</a></li>
-				<li><a href="#">关于我们</a></li>
-				<li class="headnobg"><a href="#">商家入驻</a></li>
+				<li><a href="#">我的订单</a><span>丨</span></li>
+				<li><a href="#">会员中心</a><span>丨</span></li>
+				<li><a href="#">购物车</a><span>丨</span></li>
+				<li class="guanzhu"><a href="#">关注</a><div class="yincang">
+					<ul>
+						<li class="saoyisao">用微信扫一扫</li>
+						<li><img src="../css/img/twocode.jpg"/></li>
+						<li class="dingyue">订阅亲亲宝贝微信</li>
+					</ul>
+				</div></li>
+			</ul>
+		
+		
+		
+		</div>
+	</div>
+</div>
+<!--***************head*******************-->
+<div class="headcon">
+	<div class="head1">
+		<div class="head1left">
+			<a href="#"></a>
+			<div class="liucheng"></div>
+		</div>
+	</div>
+</div>	
+<!--***************center*******************-->	
+<div class="center">
+	<div class="centerbox">
+		<div class="gouwuche">
+			<div class="gwcbt">
+				<div class="lanzi"></div>
+				<b>我的购物车</b>
+			</div>
+			<ul class="chengnuo">
+				<li><div class="zp"></div><span>正品保证</span></li>
+				<li class="qtli"><div class="qt"></div><span>7天无理由退货</span></li>
+				<li><div class="sd"></div><span>闪电发货</span></li>
 			</ul>
 		</div>
-		<div class="headright">
-			<div class="headrightdiyihang"><p>您好,欢迎来到亲亲宝贝!请</p>
-				<ul>
-					<li><a href="#">登录</a></li>
-					<li class="headrightlast"><a href="#">免费注册</a></li>
-				</ul>
-				<div class="kefuphone">客服电话:400-610-9993</div>
+		<form>
+		<div class="zhengwc">
+			<div class="gwchead">
+				<input type="checkbox" checked="checked"><span class="qx">全选</span><span class="dj">单价(元)</span><span class="num">数量(件)</span><span class="add">小计</span><span class="cz">操作</span>
+			
 			</div>
-			<form>
-			<input class="sousuo" type="text"/><input class="sousuoanniu" type="button" value="搜索">
-			</form>
-			<div class="headrightzuihouyihang">
-				<ul>
-					<li><a href="#">宝宝玩具</a></li>
-					<li><a href="#">奶粉</a></li>
-					<li><a href="#">辅食营养</a></li>
-					<li><a href="#">尿裤</a></li>
-					<li class="headrightzuihouyihanglast"><a href="#">湿巾</a></li>
-				</ul>
+			<div class="gwcbd"></div>
+			<div class="goodmsg">
+				<div class="yhq">
+					<a href="#" class="jbtn"><i class="arrow"></i>使用优惠券</a>
+					<a href="#" class="yhqshuoming">(优惠券说明)</a>
+				
+				
+				
+				</div>
+				<div class="countcart">
+					<div class="tishi">【提示：如果您购买的商品有海淘商品,请去会员中心进行实名认证！】</div>
+					<div class="geiqian">
+						<ul class="jgmsg">
+							<li>商品金额：</li>
+							<li>满减优惠：</li>
+							<li>优惠券：</li>
+							<li>运   费：</li>
+						</ul>
+						<ul class="jga">
+							<li id="zj">¥0.00</li>
+							<li id="mj">¥0.00</li>
+							<li id="yhqa">¥0.00</li>
+							<li id="yf">¥0.00</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sub">
+					<a href="#">继续购买>></a>
+					<input type="bottom" value=""/>
+					<p>应付金额：<span id="hj">¥0.00</span></p>
+				</div>
 			</div>
 		</div>
+		</form>
 		
-	
+		
+		<h2 class="a1"><b></b>与您浏览相关的商品</h2>
+		<div class="goods">
+			<div id="sg"><span class="sg"></span></div>
+			<div class="kdj">
+				<ul>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+					<li>
+						<div class="kgdzp"><a href="#"><img src="../css/img/141051452996924_225x225.jpg"/></a></div>
+						<p>Hape小工作台套装E8008过家家玩具儿童宝宝益智拆装送礼佳品</p>
+						<h4>¥448.00</h4>
+						<input type="buttom" value=""/>
+					</li>
+				</ul>
+			</div>
+			<div id="xg"><span class="xg"></span></div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
 	</div>
-	<div class="banner"><img src="../css/img/linehead.jpg"/></div>
-</div>	
-	
-	
-	
-	
-	
-
-	
-	
+</div>
 <!--***************dibu*******************-->
 <div class="dibubox">
 	<div class="dibu">
@@ -104,6 +237,30 @@
 		</div>
 		<div class="youqinglianjie">
 			<span>友情链接:</span>
+			<div class="kdjdyqlj">
+				<ul class="fanga">
+					<li><a href="#">房天下</a></li>
+					<li><a href="#">化妆品代购</a></li>
+					<li><a href="#">清风手游网</a></li>
+					<li><a href="#">便玩家</a></li>
+					<li><a href="#">友情收集站</a></li>
+					<li><a href="#">9553下载</a></li>
+					<li><a href="#">西西软件园</a></li>
+					<li><a href="#">就去天空</a></li>
+					<li><a href="#">91游戏网</a></li>
+					<li><a href="#">绿色资源网</a></li>
+					<li><a href="#">天极下载</a></li>
+					<li><a href="#">系统天堂</a></li>
+					<li><a href="#">当下软件网</a></li>
+					<li><a href="#">网侠软件</a></li>
+					<li><a href="#">绿色先锋</a></li>
+					<li><a href="#">手机中国</a></li>
+					<li><a href="#">绿色先锋</a></li>
+					<li><a href="#">信祈宝</a></li>	
+				</ul>
+			
+			
+			</div>
 		</div>
 		<div class="msg">&copy;&nbsp;&nbsp;亲亲宝贝网2003-2014 qinqinbaby.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京公安网备11010802015478号 京ICP备11017831号-1</div>
 		<div class="tel">
@@ -116,6 +273,6 @@
 	</div>
 </div>
 
-
+</div>
 </body>
 </html>

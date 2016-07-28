@@ -1,0 +1,26 @@
+
+/*----------------center-------------------*/
+.center{height:500px;}
+.centerbox{width:1000px;height:500px;margin:0 auto;}
+.datu{width:480px;height:353px;padding-top:50px;margin-left:50px;float:left;}
+.zc{width:370px;height:470px;float:right;margin-top:30px;}
+.zc .denglu{height:14px;font-size:14px;margin-bottom:20px;}
+.denglu span{float:right;}
+.zc input{width:273px;height:31px;border:1px solid #bfbfbf;line-height:33px;border-radius:5px;color:#4c4c4c;font-size:14px;}
+.zc .shoujihao{color:#f20266;line-height:25px;height:25px;margin:0;padding:0;}
+.zc .danxuan{margin:0;padding:0;}
+.zc .sex{width:13px;height:13px;}
+.zc .qingxuanze,.zc .shurumima,.zc .querenmima,.yyyzm .shuruyzm,.zc .shoujihao{margin:0;padding:0;color:#f20266;height:25px;line-height:25px;font-size:12px;}
+.zc .denglu a{color:#f20266;text-decoration:none;}
+.yzm{margin-bottom:16px;}
+.yzm input,.yyyzm input{width:128px;}
+.yzm a{color:#ff9710;width:36px;height:17px;line-height:35px;font-size:12px;text-decoration:none;}
+.yyyzm button{width:120px;height:30px;border:1px solid #ffbd89;background:#fff5ed;border-radius:5px;font-size:12px;}
+.zc .quedingzc input{width:140px;height:40px;background:url(img/loginmain.png) no-repeat -142px -1px;border:0;color:#fff;font-size:16px;}
+.zc .quedingzc input:hover{background:url(img/loginmain.png) no-repeat -142px -41px;}
+.zc .tongyi{font-size:12px;margin-top:15px;color:#666;line-height:12px;}
+.zc .tongyi a{color:#e03499;text-decoration:none;font-size:12px;line-height:1;}
+.zc .tongyi input{width:14px;height:14px;}
+.zc .shoujihao,.zc .qingxuanze,.zc .shurumima,.zc .querenmima,.zc .shuruyzm{visibility:hidden;}
+
+
