@@ -75,9 +75,9 @@
 
                 var _event = ev || window.event;  
 				//鼠标的位置
-                var left = _event.pageX - objDemo.offsetLeft - objSmallBox.offsetLeft - objFloatBox.offsetWidth-50;
+                var left = _event.pageX - objSmallBox.offsetLeft - objFloatBox.offsetWidth*1.5;
 				
-                var top = _event.pageY - objDemo.offsetTop - objSmallBox.offsetTop - objFloatBox.offsetHeight-75;
+                var top = _event.pageY  - objSmallBox.offsetTop - objFloatBox.offsetHeight*1.5;
 
                 if (left < 0) {
                     left = 0;
