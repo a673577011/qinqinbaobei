@@ -1,0 +1,28 @@
+.center{height:600px;margin-top:20px;}
+.centerbox{width:1000px;height:500px;margin:0 auto;}
+.datu{width:480px;height:353px;padding-top:50px;margin-left:50px;float:left;}
+.dla{width:370px;height:302px;float:right;margin-top:30px;}
+.dla .denglu{height:14px;font-size:14px;margin-bottom:20px;}
+.dla input{width:273px;height:31px;border:1px solid #bfbfbf;line-height:33px;border-radius:5px;color:#4c4c4c;font-size:14px;}
+.dla .yhm{color:#b2b2b2;line-height:36px;height:36px;margin:0;padding:0;font-size:12px;}
+.dla .shurumima{margin:0;padding:0;color:#f20266;height:25px;line-height:25px;font-size:12px;}
+.dla .denglu a{color:#f20266;text-decoration:none;}
+.dla .quedingzc input{width:140px;height:40px;background:url(img/loginmain.png) no-repeat -142px -1px;border:0;color:#fff;font-size:16px;}
+.dla .quedingzc input:hover{background:url(img/loginmain.png) no-repeat -142px -41px;}
+.dla .tongyi{font-size:12px;margin-top:15px;color:#666;line-height:12px;}
+.dla .tongyi a{color:#e03499;text-decoration:none;font-size:12px;line-height:1;}
+.dla .tongyi .wangji{color:#666;}
+.dla .tongyi span{float:right;margin-right:100px;}
+.dla .tongyi input{width:14px;height:14px;}
+.dla .qingxuanze,.dla .shurumima,.dla .querenmima,.dla .shuruyzm{visibility:hidden;}
+.fenxiang{width:280px;margin-top:30px;font-size:12px;line-height:2;border-top:1px dashed #666;}
+.fenxiang p{font-size:12px;line-height:2;margin-top:20px;color:#666;float:left}
+.fenxiang div{float:left;margin-top:20px;}
+.fenxiang a{float:left;width:24px;height:24px;margin-left:10px;}
+.wb{background:url(img/loginmain.png) no-repeat -142px -122px;}
+.wb:hover{background:url(img/loginmain.png) no-repeat -142px -146px;}
+.wx{background:url(img/loginmain.png) no-repeat -214px -122px;}
+.wx:hover{background:url(img/loginmain.png) no-repeat -214px -146px;}
+.tx{background:url(img/loginmain.png) no-repeat -166px -122px;}
+.tx:hover{background:url(img/loginmain.png) no-repeat -166px -146px;}
+

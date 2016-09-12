@@ -1,0 +1,13 @@
+/*----------------head-------------------*/
+.head{height:110px;padding-top:40px;}
+.headbox{height:60px;width:1000px;margin:0 auto;}
+.headboxbg{height:28px;width:445px;float:right;background:url(img/loginmain.png) no-repeat 0 -188px;margin-top:32px;}
+
+/*----------------dibu-------------------*/
+.dibu{height:50px;}
+.dibubox{width:1000px;margin:0 auto;height:50px;}
+.dbshang{width:1000px;height:36px;text-align:center;}
+.dbshang a{font-size:14px;line-height:36px;color:#555;text-decoration:none;padding:0 11px;}
+.dbshang a:hover{color:#d82977;}
+.dbxia{font-size:12px;text-align:center;color:#666;}
+

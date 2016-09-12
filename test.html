@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+*{margin:0;padding:0;}
+
+</style>
+<script>
+	function ajax(e){
+		var xmlhttp;
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function(){
+			if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				var obj = xmlhttp.responseText;
+				document.getElementById('sb').innerHTML = obj;
+			}
+		
+		
+		}
+		xmlhttp.open('GET','hhh.php?e='+e,true);
+		xmlhttp.send();
+	}
+
+</script>
+<header>
+	<p id="sb">hhh</p>
+	<button onclick="ajax(1)">请求</button>
+
+
+
+</header>
+	
+	
+	
+</body>
+</html>
